@@ -43,10 +43,10 @@ public class Main
                     w += new StringTokenizer(num4line, " ,").countTokens();
                 }
                 File.close();
-                System.out.printf("# of Lines: %d" +
-                        "\n# of Words: %d" +
-                        "\n# of Characters: %d" +
-                        "\n", l, w, c);
+                System.out.printf("# of Lines: %d ,    " +
+                        "# of Words: %d  ,   " +
+                        "# of Characters: %d ,   " +
+                        "", l, w, c);
             } else
 
 
